@@ -17,11 +17,11 @@
                           maven { url 'https://jitpack.io' }
                   }
           }
-</code></pre><p>// implementation<br>
-dependencies {<br>
-implementation ‘com.github.MeteoriticLab:meteoritic:Tag’<br>
-}<br>
-</p>
+  // implementation
+  dependencies {
+  implementation 'com.github.MeteoriticLab:meteoritic:Tag'
+   }
+</code></pre>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882533743_Gradle.jpg" alt=""></p>
 <h2 id="in-your-layout-add-the-view-and-pass-your-animation-id">In your Layout add the view and pass your animation id</h2>
 <pre><code>
