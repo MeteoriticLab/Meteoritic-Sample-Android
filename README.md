@@ -12,22 +12,21 @@
 <p>Start by Cloning this repo and to try out the sample app and test Meteoritic’s features</p>
 <h2 id="in-your-gradle-file-add-these-lines.-to-implement-the-lib.">In your Gradle file add these lines. to implement the lib.</h2>
 <pre><code>
-</code><pre><code>allprojects {
-                  repositories {
-                          maven { url 'https://jitpack.io' }
-                  }
-          }
-  // implementation
-  dependencies {
-  implementation 'com.github.MeteoriticLab:meteoritic:Tag'
-}
-</code></pre>
-</pre><p></p>
+</code></pre><p>allprojects {<br>
+repositories {<br>
+maven { url ‘<a href="https://jitpack.io">https://jitpack.io</a>’ }<br>
+}<br>
+}<br>
+// implementation<br>
+dependencies {<br>
+implementation ‘com.github.MeteoriticLab:meteoritic:Tag’<br>
+}</p>
+<p></p>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882533743_Gradle.jpg" alt=""></p>
 <h2 id="in-your-layout-add-the-view-and-pass-your-animation-id">In your Layout add the view and pass your animation id</h2>
 <pre><code>
- `&lt;animationtest.lodex.com.animationtest.service.view.Meteoritic`
-</code><pre><code>`android:id="@+id/animation"`
+</code></pre><p><code>&amp;lt;animationtest.lodex.com.animationtest.service.view.Meteoritic</code></p>
+<pre><code>`android:id="@+id/animation"`
 
 `android:layout_width="match_parent"`
 
@@ -41,19 +40,19 @@
 
 `app:file_path="5c5052fc87887269f15"/ &amp;gt;`
 </code></pre>
-</pre><p></p>
+<p></p>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882567843_Layout.jpg" alt=""></p>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882737019_FD5519B8-DEC0-42E5-8176-AAE7857C2750.png.jpg" alt=""></p>
 <h2 id="to-add-an-activity.-initialize-your-meteoritic-view-and-pass-the-context.">To add an activity. Initialize your Meteoritic View and pass the context.</h2>
 <pre><code>
-    `// init`
-</code><pre><code>`Meteoritic mMeteoriticView= findViewById(R.id.animation);`
+</code></pre><p><code>// init</code></p>
+<pre><code>`Meteoritic mMeteoriticView= findViewById(R.id.animation);`
 
 `//call animation`
 
 `mMeteoriticView.setAnimation(MainActivity.this)`
 </code></pre>
-</pre><p></p>
+<p></p>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882572451_view.jpg" alt=""></p>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882737019_FD5519B8-DEC0-42E5-8176-AAE7857C2750.png.jpg" alt=""></p>
 
