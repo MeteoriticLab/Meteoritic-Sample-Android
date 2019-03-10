@@ -13,21 +13,19 @@
 <h2 id="in-your-gradle-file-add-these-lines.-to-implement-the-lib.">In your Gradle file add these lines. to implement the lib.</h2>
 <pre><code>allprojects {
                   repositories {
-                          ...
                           maven { url 'https://jitpack.io' }
                   }
           }
   // implementation
   dependencies {
   implementation 'com.github.MeteoriticLab:meteoritic:Tag'
-   }
+}
 </code></pre>
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882533743_Gradle.jpg" alt=""></p>
 <h2 id="in-your-layout-add-the-view-and-pass-your-animation-id">In your Layout add the view and pass your animation id</h2>
 <pre><code>
-</code><pre><code>`&amp;lt;animationtest.lodex.com.animationtest.service.view.Meteoritic`
-
-`android:id="@+id/animation"`
+ `&lt;animationtest.lodex.com.animationtest.service.view.Meteoritic`
+</code><pre><code>`android:id="@+id/animation"`
 
 `android:layout_width="match_parent"`
 
@@ -46,9 +44,8 @@
 <p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_4F771F769096EE6EDB712E8AF4AF4302AE6A389FE925C26583BAD1B21CA44E72_1549882737019_FD5519B8-DEC0-42E5-8176-AAE7857C2750.png.jpg" alt=""></p>
 <h2 id="to-add-an-activity.-initialize-your-meteoritic-view-and-pass-the-context.">To add an activity. Initialize your Meteoritic View and pass the context.</h2>
 <pre><code>
-</code><pre><code>`// init`
-
-`Meteoritic mMeteoriticView= findViewById(R.id.animation);`
+    `// init`
+</code><pre><code>`Meteoritic mMeteoriticView= findViewById(R.id.animation);`
 
 `//call animation`
 
